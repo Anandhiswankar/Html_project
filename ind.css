@@ -1,0 +1,95 @@
+.container{
+    background-color: blueviolet;
+}
+/*Card CSS*/
+
+.card-body{
+    padding: 25px;
+    display: block;
+    overflow: hidden;
+    margin-left: 410px;
+
+    width: 400px;
+    border: 5px solid black;
+
+}
+.card-body h2{
+    margin-left: 130px;
+    font-family: cursive;
+    font-size: 25px;
+
+}
+
+.form-group{
+    display: block;
+    margin-bottom: 15px;
+    font-size: 20px;
+
+     
+}
+
+::placeholder{
+    color: white;
+
+}
+
+/*Card1 CSS*/
+
+.card-body1{
+    padding: 15px;
+    display: block;
+    overflow: hidden;
+
+    height: 200px;
+    
+}
+
+
+.form-control1{
+    padding: 20px;
+    height: 40px;
+    background: transparent;
+    color: black;
+    width: 80%;
+   
+}
+
+
+
+  .form-group2{
+    display: block;
+    margin-bottom: 15px;
+    
+}
+.form-group2 label{
+    display: block;
+    margin-bottom: 5px;
+    font-size: 13px;
+    color: black;
+
+   
+    font-size: 23px;
+}
+
+
+.form-control2{
+    padding: 5px 15px;
+    
+    background: transparent;
+      border: 5px white;
+
+    width: 88%;
+}
+.form-control{
+    padding: 5px 15px;
+    height: 30px;
+    background: transparent;
+    border: 5px white;
+  
+
+    width: 88%;
+    
+}
+.form-group1 button{
+    margin-left: 150px;
+}
