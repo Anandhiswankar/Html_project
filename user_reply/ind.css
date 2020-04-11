@@ -1,20 +1,38 @@
+
+*
+{
+    padding: 0;
+    margin: 0;
+    
+}
+
 .container{
-    background-color: blueviolet;
+    width:100%;
+    height:100%;
+   
 }
 /*Card CSS*/
 
-.card-body{
-    padding: 25px;
-    display: block;
-    overflow: hidden;
-    margin-left: 410px;
 
-    width: 400px;
-    border: 5px solid black;
-
+body
+{
+    background-color: rgba(255, 47, 175, 0.61);
+    width:100%;
+    height:100%;
+    
 }
+.form-group h5{
+    margin-top: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.card-body{
+ width:80%;
+
+}   
 .card-body h2{
-    margin-left: 130px;
+   
     font-family: cursive;
     font-size: 25px;
 
@@ -24,6 +42,7 @@
     display: block;
     margin-bottom: 15px;
     font-size: 20px;
+   
 
      
 }
@@ -39,7 +58,7 @@
     padding: 15px;
     display: block;
     overflow: hidden;
-
+    
     height: 200px;
     
 }
@@ -63,20 +82,20 @@
 }
 .form-group2 label{
     display: block;
-    margin-bottom: 5px;
-    font-size: 13px;
+ 
+    font-size: 20px;
     color: black;
 
-   
-    font-size: 23px;
-}
+margin-top: 10px;
 
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
 
 .form-control2{
     padding: 5px 15px;
-    
+  
     background: transparent;
-      border: 5px white;
 
     width: 88%;
 }
@@ -92,4 +111,33 @@
 }
 .form-group1 button{
     margin-left: 150px;
+}
+
+
+.save_btn
+{
+    background-color:white;
+    padding: 5px;
+    width:200px;
+    border:1px solid black;
+    border-radius: 20px;
+}
+
+
+.shift_right
+{
+    margin-left: 20px;
+}
+
+.inpt
+{
+    border: 1px solid black;
+    border-radius: 20px;
+    text-align: center;
+    color:white;
+    border-radius: 30px 1px 30px 1px;
+   
+    background-color: rgb(255, 47, 203);
+
+
 }
