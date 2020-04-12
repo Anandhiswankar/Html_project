@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <title> donarproduct page </title>     
+        <link href="css/style.css" rel="stylesheet"  />
+
+    </header>
+    <body>
+        <div class="container">
+            <div class="card">
+                <div class="card-body">
+                    <form action="donarproduct.php" method="POST" >
+                        <h2>donarproduct Form</h2>
+                        <p class="mb-15"></p>
+                    <div class="form-group">
+                        <label>Product id:<span>*</span></label>
+                        <select >
+                            <option class="form-group"></option>
+                        </select>
+                    <div class="form-group">
+                        <label>Product sub-id:<span>*</span></label>
+                        <input type="number" name="psid" class="form-control" placeholder="Enter psid" required>
+                    </div>
+                     
+                    <div class="form-group">
+                        <label>Donor Product Name:<span>*</span></label>
+                        <input type="text" name="dpname" class="form-control" placeholder="Enter dpname" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Donor Description:<span>*</span></label>
+                        <input type="text" name="dp_dis"class="form-control" placeholder="enter dp_dis" required>
+                    </div>
+                    <div class="form-group">
+                        <label>donor product gallery status:<span>*</span></label>
+                        <input type="text" name="dpg_status"class="form-control" placeholder="enter dpg_status" required>
+                    </div>
+                    
+                    
+                    <div class="form-group1">                       
+                       
+                        <input class="btn btn-primary" name="submit" type="submit" value="submit">
+                    </div>
+    </body>
+</html>
